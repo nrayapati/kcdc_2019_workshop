@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advanced on Jenkins Pipeline Workshop Resources</title>
+    <link>https://nrayapati.github.io/kcdc_2019_workshop/tags/advanced/</link>
+    <description>Recent content in Advanced on Jenkins Pipeline Workshop Resources</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://nrayapati.github.io/kcdc_2019_workshop/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build Name</title>
+      <link>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/2.buildname/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/2.buildname/</guid>
+      <description> Build Name node { //this will replace the build number in the Jenkins UI. currentBuild.displayName = &amp;quot;Cerner - &amp;quot; + currentBuild.number //this will show up as a grey text block below the build number currentBuild.description = &amp;quot;Kansas City&amp;quot; }  </description>
+    </item>
+    
+    <item>
+      <title>Remote Loader</title>
+      <link>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/3.remoteloader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/3.remoteloader/</guid>
+      <description>Pipeline Remote Loader node { def remoteScript = fileLoader.fromGit(&#39;jenkins/release.groovy&#39;, &amp;quot;https://github.com/nrayapati/kcdc_test.git&amp;quot;, &#39;master&#39;, null, &#39;&#39;) remoteScript.prepare() remoteScript.release() remoteScript.clean() }  Note: Install this plugin: https://plugins.jenkins.io/workflow-remote-loader</description>
+    </item>
+    
+    <item>
+      <title>Lockable Resources</title>
+      <link>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/4.lockable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/4.lockable/</guid>
+      <description> Lockable REsources lock(quantity: 1, resource: &#39;KCDC&#39;) { sleep time: 1, unit: &#39;MINUTES&#39; }  </description>
+    </item>
+    
+    <item>
+      <title>Config File Provider</title>
+      <link>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/5.configfile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/5.configfile/</guid>
+      <description> Config File Provider node { configFileProvider([configFile(fileId: &#39;sample_json&#39;, variable: &#39;testJsonFileName&#39;)]) { println testJsonFileName.toString() def testJsonfile = readFile &amp;quot;${testJsonFileName.toString()}&amp;quot; println testJsonfile } }  </description>
+    </item>
+    
+    <item>
+      <title>Script Approval vs Sandbox</title>
+      <link>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/6.scriptapproval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/6.scriptapproval/</guid>
+      <description> Script Approval vs Sandbox Code at https://github.com/nrayapati/kcdc_2019_workshop/blob/master/vars/retryWithPrompt.groovy#L17
+@Library(&amp;quot;kcdc&amp;quot;) _ retryWithPrompt { error &amp;quot;Anticipated error...&amp;quot; }  </description>
+    </item>
+    
+    <item>
+      <title>SSH Agent</title>
+      <link>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/7.sshagent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/7.sshagent/</guid>
+      <description>SSH Agent node { step([$class: &#39;WsCleanup&#39;]) sshagent([&#39;ssh&#39;]) { git branch: &#39;test&#39;, url: &#39;https://github.com/nrayapati/kcdc_test.git&#39; sh &amp;quot;ssh-keyscan -H github.com &amp;gt;&amp;gt; ~/.ssh/known_hosts&amp;quot; sh &amp;quot;git remote set-url origin git@github.com:nrayapati/kcdc_test.git&amp;quot; sh &amp;quot;git config user.email naresh.rayapati@gmail.com&amp;quot; sh &amp;quot;git config user.name nrayapati&amp;quot; sh &#39;git checkout -b kcdc&#39; sh &#39;git push origin kcdc&#39; } }  Commands to generate key:
+https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
+ssh-keygen -t rsa -b 4096 -C &amp;quot;your_email@example.com&amp;quot; # Copy public key to your account on github pbcopy &amp;lt; ~/.</description>
+    </item>
+    
+    <item>
+      <title>Job DSL</title>
+      <link>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/8.jobdsl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/8.jobdsl/</guid>
+      <description> Job DSL folder(&amp;quot;KCDC/03.Advanced/test_folder&amp;quot;) { } pipelineJob(&#39;KCDC/03.Advanced/test_folder/simple_pipeline&#39;) { displayName(&#39;simple_pipeline&#39;) description(&#39;simple_pipeline&#39;) definition { cpsScm { scm { git { remote { url(&#39;https://github.com/nrayapati/kcdc_test.git&#39;) branch(&#39;master&#39;) } } } } } triggers { githubPush() } properties { buildDiscarder { strategy { logRotator { artifactDaysToKeepStr(&#39;2&#39;) artifactNumToKeepStr(&#39;2&#39;) daysToKeepStr(&#39;2&#39;) numToKeepStr(&#39;2&#39;) } } } } }  </description>
+    </item>
+    
+    <item>
+      <title>Flow Control</title>
+      <link>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/9.flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/9.flow/</guid>
+      <description> Flow Control @Library(&amp;quot;kcdc&amp;quot;) _ input message: &#39;INPUT EXAMPLE&#39;, ok: &#39;KCDC_2019&#39;, parameters: [string(defaultValue: &#39;&#39;, description: &#39;&#39;, name: &#39;STRING_PARAM&#39;, trim: false), booleanParam(defaultValue: false, description: &#39;&#39;, name: &#39;BOOLEAN_PARAM&#39;)] retryWithPrompt { error &amp;quot;error during the demo&amp;quot; }  </description>
+    </item>
+    
+  </channel>
+</rss>

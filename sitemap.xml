@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/setup/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/2.buildname/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/enterprise/2.config_driven/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/2.jenkinsfile/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/library/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/library/2.using/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/steps/retrywithprompt/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/3.declarative/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/library/3.example/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/enterprise/3.mpl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/steps/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/3.remoteloader/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/steps/retryandreturn/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/library/4.closure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/enterprise/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/enterprise/4.jte/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/4.lockable/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/4.node/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/steps/creategitbranchv1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/5.configfile/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/5.scm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/steps/creategitbranchv2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/6.scriptapproval/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/6.tools/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/7.sshagent/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/7.shell/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/8.credentials/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/8.jobdsl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/9.flow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/9.stash/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/10.cleanws/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/11.params/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/12.string/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/13.parallel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/tags/advanced/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/tags/basics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/tags/enterprise/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/tags/general/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/tags/shared-library/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrayapati.github.io/kcdc_2019_workshop/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
