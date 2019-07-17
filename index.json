@@ -25,7 +25,7 @@
 	"title": "Config-Driven Pipeline Plugin",
 	"tags": ["Enterprise"],
 	"description": "",
-	"content": "KCDC_Config_Repo KCDC_Config_Jenkins Plugin Docs\n"
+	"content": " KCDC_Config_Repo KCDC_Config_Jenkins Plugin Docs  "
 },
 {
 	"uri": "https://nrayapati.github.io/kcdc_2019_workshop/labs/basics/2.jenkinsfile/",
@@ -130,7 +130,7 @@
 	"title": "Jenkins Template Engine",
 	"tags": ["Enterprise"],
 	"description": "",
-	"content": "JTE Config JTE Libs JTE Maven App\nBlog\n"
+	"content": " JTE Config JTE Libs JTE Maven App\n Blog\n  "
 },
 {
 	"uri": "https://nrayapati.github.io/kcdc_2019_workshop/labs/advanced/4.lockable/",
