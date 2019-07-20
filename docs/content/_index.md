@@ -10,7 +10,6 @@ Jenkins 2 brings Pipeline as code, a new setup experience and other UI improveme
 
 This repository contains instructions and labs related Jenkins Pipeline Workshop.
 
-![KCDC](https://apps.myconf.app/static/conferences/kcdc2019/images/banner.png)
-
+### Slides
 
 {{% gslides "https://docs.google.com/presentation/d/1PoMAjCi2i3O95v1ZkjgVg-bs2SVuUG1bW14zZ3JIOBg" %}}
