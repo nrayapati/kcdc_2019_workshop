@@ -298,7 +298,7 @@
 	"title": "Jenkins Pipelines Workshop",
 	"tags": [],
 	"description": "Jenkins Pipeline Workshop",
-	"content": " Jenkins Pipeline Jenkins 2 brings Pipeline as code, a new setup experience and other UI improvements, let you define delivery pipelines using concise Groovy scripts which deal elegantly with jobs involving persistence and asynchrony. Introduces a domain-specific language (DSL) that helps Jenkins users to model their software delivery pipelines as code, which can be checked in and version-controlled along with the rest of their project\u0026rsquo;s source code.\nThis repository contains instructions and labs related Jenkins Pipeline Workshop.\n "
+	"content": " Jenkins Pipeline Jenkins 2 brings Pipeline as code, a new setup experience and other UI improvements, let you define delivery pipelines using concise Groovy scripts which deal elegantly with jobs involving persistence and asynchrony. Introduces a domain-specific language (DSL) that helps Jenkins users to model their software delivery pipelines as code, which can be checked in and version-controlled along with the rest of their project\u0026rsquo;s source code.\nThis repository contains instructions and labs related Jenkins Pipeline Workshop.\n.embed-container { position: relative; padding-bottom: 58.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }\n"
 },
 {
 	"uri": "https://nrayapati.github.io/kcdc_2019_workshop/tags/shared-library/",
