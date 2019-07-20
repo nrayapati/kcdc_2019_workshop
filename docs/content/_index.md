@@ -12,6 +12,5 @@ This repository contains instructions and labs related Jenkins Pipeline Workshop
 
 ![KCDC](https://apps.myconf.app/static/conferences/kcdc2019/images/banner.png)
 
-<iframe width="853" height="480" src="https://vclock.com/embed/timer/#date=2019-07-17T08:00:00&title=KCDC+2019!+-+JENKINS+PIPELINE+WORKSHOP&theme=0&ampm=1&sound=xylophone" frameborder="0" allowfullscreen></iframe>
 
-
+{{% gslides "https://docs.google.com/presentation/d/1PoMAjCi2i3O95v1ZkjgVg-bs2SVuUG1bW14zZ3JIOBg" %}}
